@@ -1,0 +1,299 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: lightcyan; 
+}
+
+/* STYLE TEXT */
+.header {
+  font-family: 'Suez One', serif;
+  font-size: 45px;
+  color: #293241;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.p {
+  font-family: 'Montserrat', sans-serif;
+  color: #9b2226;
+  text-align: center;
+}
+
+.secondh {
+  font-family: 'Lato', sans-serif;
+  color: #f72585;
+  text-align: center;
+}
+
+.thirdh {
+  font-family: 'Poppins', sans-serif;
+  color: #ffb703;
+  text-align: center;
+}
+
+#p1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#head1 {
+  margin-top: -9em;
+  margin-bottom: 0.5em;
+}
+ 
+#p2 {
+  margin-bottom: 0.5em;
+}
+
+#head2 {
+  margin-bottom: 0.5em;
+}
+
+#link1 {
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+#link2 {
+  margin-left: 9em;
+  margin-right: 9em;
+}
+
+ #head3 {
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+ }
+
+ #p3 {
+   margin-bottom: 0.5em;
+ }
+
+ #head4 {
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+ }
+
+ #head5 {
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+ }
+
+#p4 {
+   margin-bottom: 0.5em;
+}
+
+#head6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#p5 {
+  margin-bottom: 0.5em;
+}
+
+#head7 {
+  margin-bottom: 0.5em;
+}
+
+#p6 {
+  margin-bottom: 0.5em;
+}
+
+#head8 {
+  margin-bottom: 0.5em;
+}
+
+#head9 {
+  margin-bottom: 0.5em;
+}
+
+#head10 {
+  margin-bottom: 0.5em;
+}
+
+#p7 {
+  font-size: 18px;
+  color: #892b64;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+
+/*LINKS*/
+ #link3 {
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-bottom: 2em;
+ }
+
+ #link4 {
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-bottom: 2em;
+ }
+
+ #link5 {
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-bottom: 2em;
+ }
+
+ #link6 {
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 0.5em;
+  padding-bottom: 2em;
+ }
+
+ #link7 {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 0.5em;
+  padding-bottom: 2em;
+ }
+
+ #link8 {
+  margin-left: 34em;
+  margin-right: 34em;
+  margin-bottom: 0.5em;
+  color: navy;
+ }
+
+#link9 {
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-bottom: 2em;
+ }
+
+ #link10 {
+  margin-left: 7em;
+  margin-right: 7em;
+  padding-bottom: 2em;
+ }
+
+#link11 {
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-bottom: 2em;
+ }
+
+ #link12 {
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-bottom: 2em;
+ }
+
+/* STYLE FLEX CONTAINER */
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;          
+  text-align: center;
+}
+
+/*MEDIA QUERIES - Make it responsive Key Feature*/
+@media screen and (max-width: 650px) { /* Breakpoint 1 */
+  .flex-container {
+    flex-wrap: wrap; 
+  }
+
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main { 
+  margin-left: 5%;
+  margin-right: 5%;
+}
+}
+/* STYLE IMAGES */
+#i1 {
+  display: block;
+  margin-left: auto;
+  margin-right: 2em;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+#i2 {
+  display: block;
+  margin-left: 2em;
+  margin-right: auto;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+#i3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 8px;
+  border: 10px solid #cdb4db;
+  width: 100%;
+}
+
+#i4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 8px;
+  border: 10px solid #d90429;
+  width: 100%;
+}
+
+#i5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  max-width: 25%;
+  max-height: 40%;
+  width: 100%;
+}
+
+/* STYLE NAV BAR */
+nav {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+  background: #ffd7ba;
+  overflow: hidden;
+  padding: 1em; 
+} 
+
+/*Horizontal NAV BAR*/
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #ffe5d9;
+}
+
+/* STYLE BUTTONS */
