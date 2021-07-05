@@ -38,6 +38,7 @@ body {
 #p1 {
   margin-top: 1em;
   margin-bottom: 1em;
+  font-size: 18px;
 }
 
 #head1 {
@@ -47,6 +48,7 @@ body {
  
 #p2 {
   margin-bottom: 0.5em;
+  font-size: 18px;
 }
 
 #head2 {
@@ -70,6 +72,7 @@ body {
 
  #p3 {
    margin-bottom: 0.5em;
+   font-size: 18px;
  }
 
  #head4 {
@@ -83,7 +86,10 @@ body {
  }
 
 #p4 {
-   margin-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 0.5em;
+  font-size: 18px;
 }
 
 #head6 {
@@ -92,7 +98,10 @@ body {
 }
 
 #p5 {
+  padding-left: 1em;
+  padding-right: 1em;
   margin-bottom: 0.5em;
+  font-size: 18px;
 }
 
 #head7 {
@@ -100,7 +109,10 @@ body {
 }
 
 #p6 {
+  padding-left: 1em;
+  padding-right: 1em;
   margin-bottom: 0.5em;
+  font-size: 18px;
 }
 
 #head8 {
@@ -182,6 +194,24 @@ body {
  }
 
  #link12 {
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-bottom: 2em;
+ }
+
+ #lin1 {
+  margin-left: 12em;
+  margin-right: 12em;
+  padding-bottom: 2em;
+ }
+
+ #lin2 {
+  margin-left: 9em;
+  margin-right: 9em;
+  padding-bottom: 2em;
+ }  
+
+ #lin3 {
   margin-left: 5em;
   margin-right: 5em;
   padding-bottom: 2em;
@@ -296,4 +326,62 @@ li a:hover {
   background-color: #ffe5d9;
 }
 
-/* STYLE BUTTONS */
+/*STYLE BUTTONS*/
+#myButton {
+	box-shadow:inset 0px -2px 3px 0px #d9e004;
+	background:linear-gradient(to bottom, #e1fc49 5%, #e8f009 100%);
+	background-color:#e1fc49;
+	border-radius:5px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#0f4c5c;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #cee332;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e8f009 5%, #e1fc49 100%);
+	background-color:#e8f009;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.factGen {
+  background: #f07167;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 20px;
+
+  margin-top: 30px;
+  margin-left: 38%;
+  margin-right: 38%;
+
+  font-family: 'Manuale', serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #fdfcdc;
+}
+
+#factg {
+  margin-bottom: 0.5em;
+}
+#factp {
+  margin-bottom: 0.5em;
+  font-size: 15px;
+}
+
+#fact {
+  text-align: center;
+  color: #3a5a40;
+  font-size: 18px;
+  padding-top: 0.5em;
+}
